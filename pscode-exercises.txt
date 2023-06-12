@@ -24,15 +24,15 @@ A)
 create string response
 create decimal num1, num2, num3, num4, num5
 
-"Please enter a number"  Take response, convert to integer and assign value to int1
+"Please enter a number"  Take response, assign to response, convert to integer and assign value to int1
 
-"Please enter another number" Take response, convert to integer and assign value to int2
+"Please enter another number" Take response, assign to response, convert to integer and assign value to int2
 
-"Please enter a third number" Take response, convert to integer and assign value to int3
+"Please enter a third number" Take response, assign to response, convert to integer and assign value to int3
 
-"Please enter a forth number" Take response, convert to integer and assign value to int4
+"Please enter a forth number" Take response, assign to response, convert to integer and assign value to int4
 
-"Please enter the fifth number" Take response, convert to integer and assign value to int5
+"Please enter the fifth number" Take response, assign to response, convert to integer and assign value to int5
 
 "Thank you. You wrote (num1, num2, num3, num4, num5)"
 

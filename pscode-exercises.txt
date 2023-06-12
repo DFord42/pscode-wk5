@@ -1,10 +1,13 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+num1 + num2
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Take a num, use the modulus operator and make it something like:
+"Enter a number " Assign value to num
+Use modulus and take num % 2. If the remainder == 0, write even. If the remainder is 1, write odd.
+
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +17,51 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+A)
+
+string response
+create decimal num1, num2, num3, num4, num5
+
+"Please enter a number"  Take response, convert to integer and assign value to int1
+
+"\nPlease enter another number" Take response, convert to integer and assign value to int2
+
+"\nPlease enter a third number" Take response, convert to integer and assign value to int3
+
+"\nPlease enter a forth number" Take response, convert to integer and assign value to int4
+
+"\nPlease enter the fifth number" Take response, convert to integer and assign value to int5
+
+"\nThank you. You wrote (num1, num2, num3, num4, num5)"
+
+
+B)
+
+create decimal average
+
+Take num1 + num2 + num3 + num4 + num5, then divide the total by 5. Assign value to average.
+
+
+C)
+
+create variable maximumNumber
+
+For greatest number, take num1 >= num2. If true, take num 1 >= num 3. If true, take num1 >= num 4. If true, take num 1 >= num5. If true, write that num1 has the greatest value. At anytime that the number on the left produces a false result, use an if-else statement to compare num2 to num3 and so on. Make pathways for all routes within if-else statements. Assign the final result to maximumNumber
+
+
+
+create variable minimumNumber
+
+For the smallest number, do the same thing as above, but use the <= sign instead. Assign the final result to minimumNumber.
+
+
+D)
+
+Write out "The average of the numbers you entered is (average)."
+
+Write out "The greatest number from that list is (maximumNumber)"
+
+Write out "The smallest number from that list is (minimumNumber)"
+
 
 -- END --

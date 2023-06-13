@@ -22,7 +22,7 @@ d) Write out the results found from steps b and c with a message describing what
 A)
 
 create string response
-create decimal num1, num2, num3, num4, num5
+create integer num1, num2, num3, num4, num5
 
 "Please enter a number"  Take response, assign to response, convert to integer and assign value to int1
 
@@ -39,7 +39,7 @@ create decimal num1, num2, num3, num4, num5
 
 B)
 
-create decimal average. This is a decimal value in the situation where the average does not lead to a whole number.
+create decimal average. This is a decimal value in case the average does not lead to a whole number.
 
 Take num1 + num2 + num3 + num4 + num5, then divide the total by 5. Assign value to average.
 
@@ -48,12 +48,21 @@ C)
 
 create variable maximumNumber
 
-For greatest number, take num1 >= num2. If true, take num 1 >= num 3. If true, take num1 >= num 4. If true, take num 1 >= num5. If true, write that num1 has the greatest value. At anytime that the number on the left produces a false result, use an if-else statement to compare num2 to num3 and so on. Make pathways for all routes within if-else statements. Assign the final result to maximumNumber
+For greatest number, take num1 >= num2.
+	If true, take num 1 >= num 3.
+	If true, take num1 >= num 4.
+	If true, take num 1 >= num5.
+	If true, write that num1 has the greatest value.
+	At anytime that the number on the left produces a false result, use an if-else statement to
+	compare num2 to	num3 and so on.
+	Make pathways for all routes within if-else statements.
+	Assign the final result to maximumNumber
 
 
 create variable minimumNumber
 
-For the smallest number, do the same thing as above, but use the <= sign instead. Assign the final result to minimumNumber.
+For the smallest number, do the same thing as above, but use the <= sign instead.
+	Assign the final result to minimumNumber.
 
 
 D)

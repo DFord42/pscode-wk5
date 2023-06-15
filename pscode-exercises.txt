@@ -49,13 +49,10 @@ C)
 create variable maximumNumber
 
 For greatest number, take num1 >= num2.
-	If true, take num 1 >= num 3.
-	If true, take num1 >= num 4.
-	If true, take num 1 >= num5.
-	If true, write that num1 has the greatest value.
-	At anytime that the number on the left produces a false result, use an if-else statement to
-	compare num2 to	num3 and so on.
-	Make pathways for all routes within if-else statements.
+	If true, take num1 and assign it to maximunNumber.
+	If false, set num2 and make that maximumNumber.
+	Use if-else statements to compare maximumNumber to the other variables and if at any
+	time it changes, assign the higher value to maximumNumber.
 	Assign the final result to maximumNumber
 
 

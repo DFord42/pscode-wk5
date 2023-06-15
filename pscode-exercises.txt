@@ -49,7 +49,7 @@ C)
 create variable maximumNumber
 
 For greatest number, take num1 >= num2.
-	If true, take num1 and assign it to maximunNumber.
+	If true, take num1 and assign it to maximumNumber.
 	If false, set num2 and make that maximumNumber.
 	Use if-else statements to compare maximumNumber to the other variables and if at any
 	time it changes, assign the higher value to maximumNumber.
